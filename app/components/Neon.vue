@@ -1,16 +1,11 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <div class="chemist">Chemist </div>
-    <div class="fucker">Fucker </div>
-    <div class="org">.org </div>
+    <div class="chemist">Chemist</div>
+    <div class="fucker">Fucker™ </div>
+    <div class="org">.org</div>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&family=Vampiro+One&display=swap');
-
 
 .chemist {
   font-family: Monoton;

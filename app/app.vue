@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import Neon from "./components/Neon.vue";
-import Button from "./components/Button.vue";
-import { ref } from 'vue';
-import Modal from './components/Modal.vue';
-
+useSeoMeta({
+  title: 'ChemistFucker™',
+  ogTitle: 'ChemistFucker™',
+  description: 'Award winning analytical chemist™',
+  ogDescription: 'Award winning analytical chemist™',
+})
 const showModal = ref(false);
 
 const openModal = () => {
@@ -15,12 +16,16 @@ const closeModal = () => {
 };
 </script>
 <template>
-  <div class="mt-auto mb-auto">
-    <Neon/>
-    <Button @click="openModal" text="Enter"/>
-  </div>
+  <div class="h-screen flex items-center justify-center">
+    <div>
+      <Neon/>
+      <div class="w-full flex items-center justify-center">
+        <Button @click="openModal" text="Enter"/>
+      </div>
+    </div>
 
-  <Modal :show="showModal" @close="closeModal"></Modal>
+    <Modal :show="showModal" @close="closeModal"></Modal>
+  </div>
 </template>
 
 <style>

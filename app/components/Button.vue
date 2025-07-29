@@ -12,15 +12,11 @@ defineProps({
 
 <style scoped>
 button {
-  z-index: -2;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 10px 35px;
   border-radius: 40px;
-  font-size: 30px;
-  font-weight: 500;
-  color: #ffffff80;
+  font-size: 30px;color: #ffffff80;
   text-shadow: none;
-  background: transparent;
   border: 1px solid #ffffff80;
   transition: 0.5s ease;
 }
